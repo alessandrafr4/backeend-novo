@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt",
     'corsheaders',
     'rest_framework',
+    "usuario", 
     'fabidecor',
+
 
 ]
 
@@ -141,3 +143,5 @@ REST_FRAMEWORK = {
     ),
         # "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
+
+AUTH_USER_MODEL = "usuario.Usuario"
