@@ -1,0 +1,18 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "y",email = "alessandralelehfr495@gmail.com"},
+    {name = "alessandrafr4",email = "alessandralelehfr495@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.5",
+    "djangorestframework>=3.14.0",
+    "django-cors-headers>=4.2.0",
+    "djangorestframework-simplejwt>=5.3.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
