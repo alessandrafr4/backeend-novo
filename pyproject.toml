@@ -5,6 +5,7 @@ description = ""
 authors = [
     {name = "y",email = "alessandralelehfr495@gmail.com"},
     {name = "alessandrafr4",email = "alessandralelehfr495@gmail.com"},
+    {name = "alessandrafr4",email = "1"},
 ]
 dependencies = [
     "django>=4.2.5",
@@ -18,5 +19,5 @@ dependencies = [
 ]
 requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "1"}
 

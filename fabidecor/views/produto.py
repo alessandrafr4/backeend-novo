@@ -2,8 +2,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.serializers import ModelSerializer
 
 from fabidecor.models import Produto 
-from fabidecor.serializers import ProdutoSerializer, ProdutoSerializer
-
+from fabidecor.serializers import ProdutoSerializer
 
 class ProdutoDetailSerializer(ModelSerializer):
     class Meta:
